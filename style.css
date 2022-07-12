@@ -120,9 +120,10 @@ article a:hover{
     background-color: transparent;
     border: 1px solid #c89f57;
 }
+/*OUR HEADER CLOSE HERE AND STARTING OF ABOUT US SECTION*/
 .about-us{
     
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
     color: white;
     font-size: 25px;
@@ -145,12 +146,13 @@ article a:hover{
 .image-about img{
     width: 100%;
     border-radius: 5px;
+    margin-left: 20px;
     
 }
 .article-about{
     width: 40%;
     background-color: rgb(17, 16, 16);
-    margin: 60px ;
+    margin: 65px 65px 65px 75px;
     padding-top: 10px;
     border-radius: 5px;
 }
@@ -184,4 +186,57 @@ article a:hover{
 .article-about a:hover{
     background-color: rgb(17, 16, 16);
     border: 1px solid #c6a670;
+}
+/* about us section end here */
+/* start here the menu section */
+.menu-div h1{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.menu-section-one{
+    width: 90%;
+    margin: 70px 0px 40px 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    width: 25%;
+    height: 400px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.menu img{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border-radius: 100%;
+
+}
+.menu h1{
+    font-size: 35px;
+    padding: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    background-color: #c89f57;
+    font-size: 20px;
+    padding: 6px 20px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.menu:hover{
+    background-color: rgb(239, 234, 234);
+    color: black;
+    transition: 0.5s;
 }
