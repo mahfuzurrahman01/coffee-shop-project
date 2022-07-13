@@ -43,7 +43,7 @@ nav {
     display: flex;
     width: 95%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 35px 0;
 }
 
@@ -51,7 +51,7 @@ nav ul {
     margin-left: 31%;
     margin-top: 55px;
     position: relative;
-    right: 50px;
+    right: 110px;
 }
 
 nav ul li {
@@ -90,13 +90,14 @@ nav ul li:hover::after {
 
 #sub {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(255, 255, 255);
     background-color: #c6a670;
-    padding: 15px 35px;
+    padding: 10px 25px;
     margin-top: 60px;
     border-radius: 6px;
+    position: relative;
 
 }
 
